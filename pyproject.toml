@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mldesignbook"
+version = "0.1.0"
+description = ""
+authors = ["usaito <ys552@cornell.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.9.0"
+scikit-learn = "^0.24.2"
+numpy = "^1.20.3"
+matplotlib = "^3.4.2"
+seaborn = "^0.11.1"
+tqdm = "^4.61.1"
+pytorchltr = "^0.2.1"
+pandas = "^1.2.4"
+obp = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+black = "^21.6b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
