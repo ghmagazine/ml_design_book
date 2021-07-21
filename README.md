@@ -2,7 +2,9 @@
 
 技術評論社発行の書籍『施策デザインのための機械学習入門』（[Amazon](https://www.amazon.co.jp/dp/4297122243/)）のサンプルコードです。
 
-<img src="misc/cover.jpeg" width="200">
+<img src="http://image.gihyo.co.jp/assets/images/cover/2021/9784297122249.jpg" width="200">
+
+
 ### ディレクトリ構成
 
 |ディレクトリ| 内容 |
