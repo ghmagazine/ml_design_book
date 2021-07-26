@@ -15,6 +15,7 @@ tqdm = "^4.61.1"
 pytorchltr = "^0.2.1"
 pandas = "^1.2.4"
 obp = "^0.4.1"
+jupyterlab = "^3.0.16"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
