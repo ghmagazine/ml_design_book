@@ -4,6 +4,15 @@
 
 <img src="http://image.gihyo.co.jp/assets/images/cover/2021/9784297122249.jpg" width="200">
 
+## 書籍情報
+
+- 紙版発売: 2021年8月4日 / 電子版発売: 2021年7月30日
+- 齋藤優太，安井翔太　著，株式会社ホクソエム　監修
+- A5判／336ページ
+- 定価3,278円（本体2,980円＋税10%）
+- ISBN 978-4-297-12224-9
+### 出版社サポートサイト
+https://gihyo.jp/book/2021/978-4-297-12224-9
 
 ### ディレクトリ構成
 
@@ -15,8 +24,22 @@
 | [ch05](ch05/) |「5.4節 PyTorchを用いた実装と簡易実験」で用いた実装 |
 
 
-### 環境
-本書で用いたPython環境は[poetry](https://python-poetry.org/docs/)を用いて構築しています。Pythonおよび利用パッケージのバージョンは以下の通りです。
+### 動作環境
+本書で用いたPython環境は[poetry](https://python-poetry.org/docs/)を用いて構築しています。リポジトリを`git clone`し、フォルダ直下で`poetry install`を実行すると、本書と同じ環境を構築できます。
+
+```bash
+# リポジトリをclone
+git clone https://github.com/ghmagazine/ml_design_book.git
+cd ml_design_book
+
+# poetryで環境構築
+poetry install
+
+# jupyter-labを立ち上げ
+poetry run jupyter-lab
+```
+
+Pythonおよび利用パッケージのバージョンは以下の通りです。
 
 ```
 [tool.poetry.dependencies]
